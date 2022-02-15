@@ -19,6 +19,7 @@ public class Main {
             temps[i] = scan.nextDouble();
         }
 
+        System.out.println("\b");
         System.out.println("These are all of the numbers you have input: ");
         for(int i=0; i<temps.length; i++){
             System.out.print(temps[i]+"  ");
